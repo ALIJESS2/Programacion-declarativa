@@ -1,1 +1,17 @@
+<?php
+$conectarBD=@mysqli_connect("localhost","root","","bancol4");
+if (!$conectarBD) {
+    die("No hay conexion de la conejera");
+}else{
+    echo "conexion exitosa";
+}
+?>
 
+<?php
+$conectarBD=@mysqli_connect("localhost","root","","bancol4");
+if (!$conectarBD) {
+    die("No hay conexion de la conejera");
+}else{
+    echo "conexion exitosa";
+}
+?>
